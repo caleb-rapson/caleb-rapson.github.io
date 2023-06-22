@@ -2,4 +2,8 @@
     .purple-text {
       color: #663399;
     }
+    h1 {
+      font-size: large;
+      font-family: 'Times New Roman', Times, serif;
+    }
   </style>
