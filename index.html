@@ -11,15 +11,18 @@
     .purple-text {
       color: #663399;
     }
+    .gray-text {
+      color: gray;
+    }
+    .silver-background {
+      background-color: silver;
+    }
     h1 {
       font-size: large;
       font-family: 'Times New Roman', Times, serif;
     }
     body {
       background-color: black;
-    }
-    .gray-text {
-      color: gray;
     }
     h1 {
       text-align: center;
@@ -59,7 +62,7 @@
         world from the age of 8.
       </p>
     </main>
-    <div>
+    <div class="silver-background">
       <p class="gray-text">Things I love</p>
 
       <ul class="gray-text">
@@ -76,7 +79,7 @@
         <li>Social life</li>
       </ol>
     </div>
-    <div>
+    <div class="silver-background">
       <p class="gray-text">
         What is the most important thing to you? (select one)
       </p>
@@ -86,10 +89,17 @@
           type="checkbox"
           name="Family"
           value="Family"
+          checked
         />Fmaily</label
       >
       <label class="gray-text" for="Work"
-        ><input id="Work" type="checkbox" name="Work" value="Work" />Work</label
+        ><input
+          id="Work"
+          type="checkbox"
+          name="Work"
+          value="Work"
+          checked
+        />Work</label
       >
       <label class="gray-text" for="Social life"
         ><input
@@ -97,6 +107,7 @@
           type="checkbox"
           name="Social life"
           value="Social life"
+          checked
         />Social life</label
       >
       <button type="submit">submits</button>
